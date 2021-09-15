@@ -4,12 +4,32 @@
     <meta charset='UTF-8'/>
 
     <title>Portfolio | Tanner Bacon</title>
+
+    <link rel='stylesheet' href='styles.css'/>
   </head>
   <body>
     <h1>Tanner Bacon</h1>
     <hr>
 
-    <h2>About</h2>
+    <!--
+    <nav>
+      <a href="about.html">Resume</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    -->
+
+    <nav>
+      <ul class="nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <hr>
+
+    <h2 id="about">About</h2>
     <p>Hardworking Information Systems student with an aptitude for creating
       technological solutions for unstructured business problems as demonstrated
       through success in diverse work experience and academic success.
@@ -18,7 +38,7 @@
       Golden Key honor societies. A keen student with extensive experience
       in Information Systems.</p>
 
-    <h2>Projects</h2>
+    <h2 id="projects">Projects</h2>
     <ul>
       <li>Worked with a team to develop a Python GUI that interacts with the
         CLI to test content acceleration software for physical servers as
@@ -29,7 +49,7 @@
         and ensure correct calculations.</li>
     </ul>
 
-    <h2>Experience</h2>
+    <h2 id="experience">Experience</h2>
     <ol>
       <li><strong>Information Systems Manager</strong> at
         <a href="bikepeddlerutah.com">Bike Peddler</a>.
@@ -46,11 +66,15 @@
     </ol>
 
     <hr>
-    <h2>Contact</h2>
-    <p>Please contact me for further information or to get started doing <em>Business With Bacon</em>.</p>
-    <a href="https://www.linkedin.com/in/tanner-bacon-229a48202/">LinkedIn</a><br>
-    <a href="https://github.com/tbacon20">GitHub</a><br>
-    <a href="mailto:tbacon20@byu.edu?subject=Portfolio">Email Us</a>
+    <div id="contact" class="contact">
+
+      <p>Please contact me for further information or to get started doing <em>Business With Bacon</em>.</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/tanner-bacon-229a48202/">LinkedIn</a><br>
+        <li><a href="https://github.com/tbacon20">GitHub</a><br>
+        <li><a href="mailto:tbacon20@byu.edu?subject=Portfolio">Email Us</a>
+      </ul>
+    </div>
 
   </body>
 </html>
