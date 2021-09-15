@@ -1,0 +1,99 @@
+body {
+  color: #254e73;
+  background-color: #89CFF0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #89CFF0;
+  text-align: center;
+  padding: 20px;
+  background-color: #254e73;
+}
+
+
+ul {
+  list-style-type: disc;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #254e73;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #89cff0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #111;
+  color: white;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/*
+nav {
+  background-color: #254e73;
+  color: #89CFF0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+nav li {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #89cff0;
+}
+# margin: 8%;
+
+nav a {
+  display: block;
+  padding: 8px;
+  color: #89CFF0;
+  text-decoration: none;
+}
+*/
+
+.contact {
+  text-align: center;
+  background-color: #254e73;
+  color: #89CFF0;
+  padding-top: 10px;
+
+}
+
+.contact li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 50px 50px 10px;
+}
+.contact a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
